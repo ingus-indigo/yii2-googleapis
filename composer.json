@@ -1,0 +1,22 @@
+{
+    "name": "omni/yii2-omni-google-apis",
+    "description": "province google apis in yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","google","api"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "gantaphon",
+            "email": "gantaphon.m@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "omni/googleapis": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "omni\\googleApis\\": ""
+        }
+    }
+}
