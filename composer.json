@@ -15,7 +15,7 @@
         "type": "git",
         "url": "https://github.com/ingus-indigo/yii2-googleapis.git"
       }
-    ]
+    ],
     "require": {
         "yiisoft/yii2": "*"
     },
