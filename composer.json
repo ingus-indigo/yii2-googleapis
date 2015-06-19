@@ -1,18 +1,23 @@
 {
-    "name": "omni/yii2-omni-google-apis",
+    "name": "omni/yii2-googleapis",
     "description": "province google apis in yii2",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","google","api"],
-    "license": "BSD-2-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "gantaphon",
             "email": "gantaphon.m@gmail.com"
         }
     ],
+    "repositories":[
+      {
+        "type": "git",
+        "url": "https://github.com/ingus-indigo/yii2-googleapis.git"
+      }
+    ]
     "require": {
-        "yiisoft/yii2": "*",
-        "omni/yii2-googleapis": "*"
+        "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {
