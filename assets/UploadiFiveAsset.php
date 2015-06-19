@@ -1,6 +1,6 @@
 <?php
 
-namespace omni\googleApis\assets;
+namespace omni\googleapis\assets;
 
 use yii\web\AssetBundle;
 

@@ -12,11 +12,11 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "omni/googleapis": "dev-master"
+        "omni/yii2-googleapis": "*"
     },
     "autoload": {
         "psr-4": {
-            "omni\\googleApis\\": ""
+            "omni\\googleapis\\": ""
         }
     }
 }

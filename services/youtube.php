@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2015 ingus-inigo
  * @license MIT License (http://opensource.org/licenses/MIT)
  */
-namespace omni\googleApis\services;
+namespace omni\googleapis\services;
 
 /**
  * Facebook allows authentication via Facebook OAuth.

@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist omni/yii2-omni-google-apis "*"
+php composer.phar require --prefer-dist omni/yii2-googleapis "*"
 ```
 
 or add
 
 ```
-"omni/yii2-omni-google-apis": "*"
+"omni/yii2-googleapis": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,5 +28,5 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \omni\googleApis\AutoloadExample::widget(); ?>
+<?= \omni\googleapis\AutoloadExample::widget(); ?>
 ```

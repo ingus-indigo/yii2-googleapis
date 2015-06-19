@@ -1,10 +1,10 @@
 <?php
-namespace omni\googleApis;
+namespace omni\googleapis;
 
 use Yii;
 class Module extends \yii\base\module
 {
-    public $controllerNamespace = 'omni\googleApis\controllers';
+    public $controllerNamespace = 'omni\googleapis\controllers';
     public $defaultRoute = 'default';
 
     /*

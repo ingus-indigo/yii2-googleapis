@@ -5,7 +5,7 @@
  * @license MIT License (http://opensource.org/licenses/MIT)
  */
 
-namespace omni\googleApis\widgets\youtube;
+namespace omni\googleapis\widgets\youtube;
 
 use yii;
 use yii\helpers\Html;
@@ -60,7 +60,7 @@ class Uploader extends \yii\widgets\InputWidget
             $this->pluginEvents = ArrayHelper::merge($this->pluginEvents, ['changeDate' => 'function (e) { ' . $id . '.val(e.format());} ']);
         }*/
         if ($this->type === self::TYPE_INPUT) {
-            \omni\googleApis\assets\UploadiFiveAsset::register($view);
+            \omni\googleapis\assets\UploadiFiveAsset::register($view);
         }
     }
 

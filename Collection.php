@@ -5,7 +5,7 @@
  * @license MIT License (http://opensource.org/licenses/MIT)
  */
 
-namespace omni\googleApis;
+namespace omni\googleapis;
 
 use Yii;
 use yii\base\Component;
@@ -19,10 +19,10 @@ use yii\base\InvalidParamException;
  * ~~~
  * 'components' => [
  *     'ServiceCollection' => [
- *         'class' => 'omni\googleApis\Collection',
+ *         'class' => 'omni\googleapis\Collection',
  *         'services' => [
  *             'youtube' => [
- *                  'class' => 'omni\googleApis\services\youtube'
+ *                  'class' => 'omni\googleapis\services\youtube'
  *                  'localFileUpload' => '{location of local file path.}
  *             ],
  *              'map' => [

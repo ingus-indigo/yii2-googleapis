@@ -1,5 +1,5 @@
 <?php
-namespace omni\googleApis\controllers;
+namespace omni\googleapis\controllers;
 
 use Yii;
 use yii\web\Controller;
@@ -7,7 +7,7 @@ use yii\web\Controller;
 class DefaultController extends Controller
 {
     /**
-    * @var omni\googleApis\Module
+    * @var omni\googleapis\Module
     */
     public $module;
 
