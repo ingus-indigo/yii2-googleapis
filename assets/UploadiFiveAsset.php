@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class UploadiFiveAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/omni/yii2-omni-google-apis/assets';
+    public $sourcePath = '@vendor/omni/yii2-googleapis/assets';
 
     public $css = [
         'css/uploadifive.css',

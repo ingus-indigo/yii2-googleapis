@@ -407,7 +407,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "omni/yii2-omni-google-apis": 20
+        "omni/yii2-googleapis": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
